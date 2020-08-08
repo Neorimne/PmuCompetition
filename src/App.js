@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/Header/Header';
+import Info from './components/Main/Info/Info';
+import Judges from './components/Main/Judges/Judges';
+import RulesLink from './components/Main/RulesLink/RulesLink';
+import Form from './components/Main/Form/Form';
+import Footer from './components/Footer/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Rules from './components/Main/RulesPage/Rules';
 
 function App() {
   return (
+   <Router> 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <main >
+        <Switch>
+          <Route exact path="/">
+            <Info />
+            <Judges />
+            <RulesLink />
+            <Form />
+          </Route>
+          <Route exact path="/rules">
+            <Rules />
+          </Route>
+        </Switch>
+        </main>
+        <Footer />
     </div>
+    </Router>
   );
 }
 

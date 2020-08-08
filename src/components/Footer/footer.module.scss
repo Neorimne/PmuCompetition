@@ -1,0 +1,14 @@
+.footerWrapper {
+    background-color: #222222;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    .copyright{
+        margin-bottom: 5px;
+    }
+}

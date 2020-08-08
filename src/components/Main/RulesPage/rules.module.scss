@@ -1,0 +1,66 @@
+.rulesWrapper {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .imgWrapper {
+        width: 90%;
+        img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover;
+        }
+    }
+    .dateInfo {
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .headerWrapper {
+        width: 90%;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            background-color: #C1017C;
+            color: white;
+        }
+    }
+    .rulesBlock{
+        width: 90%;
+        text-align: center;
+        ol {
+            text-align: left;
+        }
+    }
+}
+
+
+ul {
+    text-align: start;
+}
+
+.btnWrapper {
+        background-color: #C1017C; 
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;  
+        a {
+            text-decoration: none;
+            color: white; 
+        }
+}
+.btnWrapper:hover {
+    background-color: white;
+    outline: 1px solid #C1017C;
+    a {
+        color: #C1017C;
+    }
+}
