@@ -5,19 +5,18 @@
     align-items: center;
     .header {
         width: 100%;
+        text-align: center;
         h2{
-            font-family: "Roboto", Sans-serif;
-            font-weight: 600;
-            font-size: 30px;
-            text-align: center;
-            background-color: #C1017C;
-            color: white
+            font-family: 'Caveat', cursive;
+            font-size: 4vw;
+            line-height: 1.2em;
+            font-weight: 300;
+            text-transform: none;
+            color: #C1017C
         }
         
     }
-    hr {
-        width: 100%;
-    }
+
     .formWrapper {
         width: 70%;
         text-align: left;
@@ -47,6 +46,16 @@
                 color: white;
                 cursor: pointer;
                 margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .wrapper {
+        .header {
+            h2{
+                font-size: 10vw;
             }
         }
     }

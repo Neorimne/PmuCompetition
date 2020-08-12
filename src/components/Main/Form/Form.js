@@ -4,7 +4,6 @@ import style from "./form.module.scss";
 const Form = () => {
     return (
         <section className={style.wrapper}>
-            <hr></hr>
             <div className={style.header}>
                 <h2>Registrati Qui</h2>
             </div>

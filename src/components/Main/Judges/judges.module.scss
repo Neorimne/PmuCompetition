@@ -1,17 +1,17 @@
 .judgesWrapper {
-    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     .headerWrapper {
-        width: 100%;
+        width: 100vw;
+        text-align: center;
         h2{
-            font-family: "Roboto", Sans-serif;
-            font-weight: 600;
-            font-size: 30px;
-            text-align: center;
-            background-color: #C1017C;
-            color: white
+            font-family: 'Caveat', cursive;
+            font-size: 4vw;
+            line-height: 1.2em;
+            font-weight: 300;
+            text-transform: none;
+            color: #C1017C
         }
     }
     .galleryWrapper{
@@ -36,7 +36,17 @@
 @media screen and (max-width: 950px) {
     .judgesWrapper {
         width: 100%;
-    }
+        .headerWrapper {
+            width: 100vw;
+            text-align: center;
+            h2{
+                font-size: 10vw;
+            }
+        }
+        .galleryWrapper{
+            width: 100vw;
+        }
+    }   
 }
 @media screen and (max-width: 450px) {
     .imgWrapper {
