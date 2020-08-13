@@ -12,7 +12,7 @@ const Shading = () => {
                 <source media="(max-width: 600px)" srcSet = {shading600} />
                 <source media="(max-width: 768px)" srcSet = {shading768} />
                 <source media="(max-width: 1024px)" srcSet = {shading1024} />
-                <img src={shadingpixel} alt="Lashes" />
+                <img src={shadingpixel} alt="shading" />
         </picture>
     )
 }

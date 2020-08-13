@@ -6,6 +6,10 @@
         width:40vw;
         margin: 0 10px ;
     }
+    .imgWrapper {
+        box-shadow: 0 0 20px 10px black;
+        border: 1px solid black;
+    }
     .imgWrapper img {
         width: 100%; 
         height: 100%; 
@@ -15,6 +19,21 @@
         font-family: "Roboto", Sans-serif;
         font-weight: 400;
         font-size: 2vw;
+        .itText, .engText {
+            border: 1px solid #C1017C;
+            padding: 20px 15px;
+            color:white;
+            background-color:#C1017C;      
+        }
+        .itText {
+            box-shadow: 20px -10px  black;
+            margin-bottom: 5px;
+        }
+        .engText {
+            box-shadow: 20px 10px  black;
+            margin-top: 5px;
+        }
+        
     }
 }
 
