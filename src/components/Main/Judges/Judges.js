@@ -8,6 +8,12 @@ import photo5 from "../../../assets/img/judges/73f26b38-79a4-4a4a-8479-90832f984
 import photo6 from "../../../assets/img/judges/8570d27f-9b2f-48bb-ae4b-598469cce447.JPG";
 import photo7 from "../../../assets/img/judges/23490019-581a-40c6-aa84-6be1929e4952.JPG";
 import photo8 from "../../../assets/img/judges/IMG_6833.JPG";
+import photo9 from "../../../assets/img/judges/photo_2020-08-19_11-40-05.jpg";
+import photo10 from "../../../assets/img/judges/photo_2020-08-19_11-40-24.jpg";
+import photo11 from "../../../assets/img/judges/photo_2020-08-19_11-40-42.jpg";
+import photo12 from "../../../assets/img/judges/photo_2020-08-19_11-40-58.jpg";
+import photo13 from "../../../assets/img/judges/photo_2020-08-19_11-41-15.jpg";
+import photo14 from "../../../assets/img/judges/photo_2020-08-19_11-41-26.jpg";
 import Judge from "../../common/Judge";
 
 const Judges = () => {
@@ -25,6 +31,12 @@ const Judges = () => {
                 <Judge styles = {style.imgWrapper} imgSrc = {photo6} />
                 <Judge styles = {style.imgWrapper} imgSrc = {photo7} />
                 <Judge styles = {style.imgWrapper} imgSrc = {photo8} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo9} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo10} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo11} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo12} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo13} />
+                <Judge styles = {style.imgWrapper} imgSrc = {photo14} />
             </div>
         </section>
     )

@@ -1,46 +1,35 @@
 .imgWrapper {
-    flex-basis: 40vw;
-    box-shadow: -20px -10px 20px black;
-    border: 3px solid #C1017C;
-    margin-right: 10px;
-    height: 200px;
-    padding: 20px;
+    margin: 30px 0;
     img {
-        width: 100%; 
-        object-fit: cover;
+        max-width: 100%;
     }
 }
 
 .orgWrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.logosWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .headerWrapper {
     width: 100vw;
     text-align: center;
     h2{
-        font-family: 'Caveat', cursive;
         font-size: 4vw;
         line-height: 1.2em;
         font-weight: 300;
         text-transform: none;
-        color: #C1017C
+        color: #C1017C;
     }
 }
 
-.artFaceWrapper {
-    box-shadow: 20px -10px 20px black;
-    border: 3px solid #C1017C;
-    margin-left: 10px;
-    text-align: center;
-    flex-basis: 40vw;
-    font-size: 5vw;
-    height: 200px;
-    padding: 20px;
 
-}
 
 @media screen and (max-width: 950px) {
     .headerWrapper {
@@ -55,10 +44,12 @@
     }
     .imgWrapper {
         flex-basis: auto;
+        height: auto;
     }
     .artFaceWrapper {
         margin-top: 10px;
         flex-basis: auto;
         font-size: 10vw;
+        height: auto;
     }
 }

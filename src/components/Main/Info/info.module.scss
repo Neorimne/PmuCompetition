@@ -19,22 +19,16 @@
         font-family: "Roboto", Sans-serif;
         font-weight: 400;
         font-size: 2vw;
-        .itText, .engText {
-            border: 1px solid #C1017C;
-            padding: 20px 15px;
-            color:white;
-            background-color:#C1017C;      
-        }
-        .itText {
-            box-shadow: 20px -10px  black;
-            margin-bottom: 5px;
-        }
-        .engText {
-            box-shadow: 20px 10px  black;
-            margin-top: 5px;
-        }
-        
+        background-color:#C1017C;
+        color:white;
+        border: 1px solid #C1017C;
+        padding: 20px 15px;
+        box-shadow: 0 0 20px 10px black;
     }
+}
+
+hr {
+    border:1px solid #830856;
 }
 
 @media screen and (max-width: 950px) {

@@ -24,6 +24,7 @@ const Info = () => {
                     dallo sponsor generale "INTRIGO" e anche dalla nostra egregia giuria regali speciali.
                     Vedi maggiori informazioni: <RulesLink text="Regolamento" />
                 </div>
+                <hr></hr>
                  <div className={style.engText}>
                     International Pmu online Competition.
                     A Convenient Format that allows you to demonstrate 
