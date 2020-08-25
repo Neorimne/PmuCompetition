@@ -38,8 +38,10 @@ const Rules = () => {
                     esteticamente gradevoli, da devolvere tutti i vantaggi della modella.</li>
                     <li><Emoji label="Red triangle" symbol="🔺"/>I Partecipanti arrivati sul podio</li>
                     <li><Emoji label="Trophy" symbol="🏆"/>1,2,3 saranno premiati con premi dallo sponsor ufficiale "INTRIGO"</li>
-                    <li><Emoji label="Party Popper" symbol="🎉"/>  E inoltre un giudice internazionale potrebbe scegliere e assegnare un premio speciale all’lavoro che gli è gradito di più
-                    ‼️CHE FOTO INVIARE‼️</li>
+                    <li><Emoji label="Party Popper" symbol="🎉"/>  E inoltre un giudice internazionale potrebbe scegliere e assegnare un premio speciale all’lavoro che gli è gradito di più</li>
+                </ul>
+                <b>CHE FOTO INVIARE</b>
+                <ul>
                     <li><Emoji label="Red triangle" symbol="🔺"/>
                     LA MODELLA IN UNA POSIZIONE VERTICALE, DA SEDUTA O IN PIEDI (NON Sdraiata!)</li>
                     <li><Emoji label="Red triangle" symbol="🔺"/>UN COLLAGE DI FOTO
@@ -63,7 +65,7 @@ const Rules = () => {
                         </ol>
                     </li>
                 </ul>
-                <b>E QUINDI:</b>
+            <b>E QUINDI</b>
                 <ul>
                     <li><Emoji label="Heavy Exclamation Mark Symbol" symbol="❗️"/>Il partecipante deve inviare 3 collage<Emoji label="Heavy Exclamation Mark Symbol" symbol="❗️"/></li>
                     <li>prima e immediatamente dopo il procedimento (viso intero)</li>
