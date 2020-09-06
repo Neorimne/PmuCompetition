@@ -5,6 +5,11 @@ import Shading from "../../common/Shading";
 import { Link } from "react-router-dom";
 import Emoji from "../../common/Emoji";
 
+
+import shading1 from "../../../assets/img/shadingPixel/1.jpg";
+import shading2 from "../../../assets/img/shadingPixel/2.jpg";
+import shading3 from "../../../assets/img/shadingPixel/3.jpg";
+
 const Rules = () => {
     return (
         <div className={style.rulesWrapper}>
@@ -214,7 +219,9 @@ const Rules = () => {
                 <h2>Example-Esempio</h2>
             </div>
             <div className={style.imgWrapper}>
-                <Shading />
+                <Shading imgSrc={shading1} />
+                <Shading imgSrc={shading2} />
+                <Shading imgSrc={shading3} />
             </div>
             <div className={style.rulesBlock}>
                 <div className={style.btnWrapper}>
