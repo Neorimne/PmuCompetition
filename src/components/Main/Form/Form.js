@@ -1,15 +1,22 @@
-import React from "react";
+import React,  { useState } from "react";
 import style from "./form.module.scss";
+import ModalWindow from "../../common/modalWindow/modalWindow";
 
 const Form = () => {
+
+    const [showModal, setShowModal] = useState(false);
+
     const phonePattern = "\+(9[976]\d|8[987530]\d|6[987]\d|5[90]\d|42\d|3[875]\d|2[98654321]\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|4[987654310]|3[9643210]|2[70]|7|1)\d{1,14}$";
     const submitHandler = (event) => {
         event.preventDefault();
         const data = new FormData(event.target);
         event.target.reset();
+        setShowModal(true);
         console.log(data.getAll("country"))
     };
- 
+    const closeHandler = () => {
+        setShowModal(false);
+    }
     return (
         <section className={style.wrapper}>
             <div className={style.header}>
@@ -44,6 +51,7 @@ const Form = () => {
                     <input type="submit" value="INVIA"></input>
                 </form>
             </div>
+            <ModalWindow show = {showModal} closeHandler = {closeHandler}/>
         </section>
     )
 };

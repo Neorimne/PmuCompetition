@@ -1,0 +1,51 @@
+.jwModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    z-index: 1000;
+    
+
+    overflow: auto;
+
+    .jwModalBody {
+        padding: 20px;
+        background: #fff;
+        margin: 40px;
+        text-align: center;
+        font-size:2vw;
+    }
+}
+
+.jwModalBackground {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.75;
+    z-index: 900;
+}
+.btn {
+    width: 20%;
+    background-color: #C1017C;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px
+}
+
+@media screen and (max-width: 700px) {
+    .jwModal {
+        .jwModalBody {
+            font-size: 5vw;
+        }
+    }
+    
+    .btn  {
+        width: 40%;
+    }
+}
