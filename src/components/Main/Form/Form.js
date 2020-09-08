@@ -12,7 +12,6 @@ const Form = () => {
         const data = new FormData(event.target);
         event.target.reset();
         setShowModal(true);
-        console.log(data.getAll("country"))
     };
     const closeHandler = () => {
         setShowModal(false);
