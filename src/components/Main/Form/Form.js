@@ -10,9 +10,22 @@ const Form = () => {
     const submitHandler = (event) => {
         event.preventDefault();
         const data = new FormData(event.target);
+        sendRequest(data);
         event.target.reset();
         setShowModal(true);
     };
+    async function sendRequest(data){
+        try {
+            const response = await fetch('https://pmu-competition.online/api/forms', {
+              method: 'POST',
+              body: data
+            });
+            const result = await response.json();
+            console.log('Успех:', JSON.stringify(result));
+          } catch (error) {
+            console.error('Ошибка:', error);
+          }
+    }
     const closeHandler = () => {
         setShowModal(false);
     }
