@@ -15,13 +15,19 @@ const Form = () => {
         setShowModal(true);
     };
     async function sendRequest(data){
+        let object = {};
+        data.forEach((value, key) => {
+            object[key] = value;
+        });
+        const jsonData = JSON.stringify(object);
+        console.log("DATA", jsonData);
         try {
             const response = await fetch('https://pmu-competition.online/api/forms', {
               method: 'POST',
-              body: data
+              body: jsonData
             });
             const result = await response.json();
-            console.log('Успех:', JSON.stringify(result));
+            console.log('Успех:', result);
           } catch (error) {
             console.error('Ошибка:', error);
           }
